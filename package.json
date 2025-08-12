@@ -1,11 +1,13 @@
 {
   "name": "gpback",
-   "version": "1.0.0",
+  "version": "1.0.0",
   "scripts": {
-    "start": "json-server --watch db.json --port 3031 --host 0.0.0.0"
+    "start": "node server.js --port 3001 --host 0.0.0.0"
   },
+  "type": "module",
+  "main": "server.js",
   "dependencies": {
+    "cors": "^2.8.5",
     "json-server": "^0.17.3"
   }
 }
-
