@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "role": "gestionnaire",
+      "nom": "Mbaye",
+      "prenom": "Laye",
+      "adresse": "Dakar",
+      "telephone": "762343212",
+      "email": "admin@gmail.com"
+    },
+     {
+      "id": 1,
+      "username": "admin2",
+      "password": "admin123",
+      "role": "gestionnaire",
+      "nom": "Ndiaye",
+      "prenom": "Lamine",
+      "adresse": "Guediawaye",
+      "telephone": "762343275432346712",
+      "email": "admin1@gmail.com"
+    }
+  ]
+}
