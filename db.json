@@ -23,80 +23,9 @@
       "email": "admin1@gmail.com"
     }
   ],
-"cargaison": [
-    {
-        "id": "1",
-        "numero": "CARG-001",
-        "code": "CGS123ABC",
-        "poidsMax": 1000,
-        "prix": 50000,
-        "typeCargaison": "AERIENNE",
-        "etatAvancement": "ENATTENTE",
-        "etatGlobal": "OUVERT",
-        "distance": 1500,
-        "colis": [],
-        "description": "Cargaison aérienne de produits électroniques",
-        "lieuDepart": "Dakar",
-        "lieuArrivee": "Paris",
-        "coordDepart": { "lat": 14.6928, "lng": -17.4467 },
-        "coordArrivee": { "lat": 48.8566, "lng": 2.3522 },
-        "dateCreation": "2024-08-14T10:00:00.000Z",
-        "dateDepart": "2024-08-20T08:00:00.000Z",
-        "dateArrivee": "2024-08-22T18:00:00.000Z"
-    },
-    {
-        "id": "2",
-        "numero": "CARG-002",
-        "code": "CGS456DEF",
-        "poidsMax": 2000,
-        "prix": 80000,
-        "typeCargaison": "ROUTIERE",
-        "etatAvancement": "ENCOURS",
-        "etatGlobal": "OUVERT",
-        "distance": 500,
-        "colis": [],
-        "description": "Cargaison routière de matériaux de construction",
-        "lieuDepart": "Thiès",
-        "lieuArrivee": "Saint-Louis",
-        "coordDepart": { "lat": 14.7910, "lng": -16.9256 },
-        "coordArrivee": { "lat": 16.0179, "lng": -16.4896 },
-        "dateCreation": "2024-08-10T09:00:00.000Z",
-        "dateDepart": "2024-08-15T07:00:00.000Z",
-        "dateArrivee": "2024-08-15T19:00:00.000Z"
-    }
-],
-"clients": [
-    {
-      "id": 1,
-      "nom": "Sow",
-      "prenom": "Mamadou",
-      "email": "mamadou.sow@example.com",
-      "telephone": "776543210",
-      "adresse": "Dakar Plateau",
-      "typeClient": "EXPEDITEUR"
-    },
-    {
-      "id": 2,
-      "nom": "Diop",
-      "prenom": "Fatou",
-      "email": "fatou.diop@example.com",
-      "telephone": "778765432",
-      "adresse": "Thies Cité Ousmane",
-      "typeClient": "DESTINATAIRE"
-    }
-  ],
-"colis" : [
-  {
-    "code": "COL-20250815-001",
-    "poids": 25,
-    "typeProduit": "ALIMENTAIRE",
-    "prix": 3500,
-    "dateDepot": "2025-08-10",
-    "dateLivraison": "2025-08-20",
-    "expediteurId": 1,
-    "destinataireId": 2
-  }
-]
+"cargaison": [],
+"clients": [],
+"colis" : []
 
     
 }
