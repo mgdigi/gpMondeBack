@@ -93,22 +93,8 @@
     "prix": 3500,
     "dateDepot": "2025-08-10",
     "dateLivraison": "2025-08-20",
-    "expediteur": {
-      "nom": "Sow",
-      "prenom": "Mamadou",
-      "email": "mamadou.sow@example.com",
-      "telephone": "776543210",
-      "adresse": "Dakar Plateau",
-      "typeClient": "EXPEDITEUR"
-    },
-    "destinataire": {
-      "nom": "Diop",
-      "prenom": "Fatou",
-      "email": "fatou.diop@example.com",
-      "telephone": "778765432",
-      "adresse": "Thies Cité Ousmane",
-      "typeClient": "DESTINATAIRE"
-    }
+    "expediteurId": 1,
+    "destinataireId": 2
   }
 ]
 
