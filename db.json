@@ -23,9 +23,225 @@
       "email": "admin1@gmail.com"
     }
   ],
-"cargaison": [],
-"clients": [],
-"colis" : []
+"cargaison": [
+  {
+    "numero": "CRG-16-202415",
+    "code": "CGS1392494I1",
+    "poidsMax": 12000,
+    "typeCargaison": "MARITIME",
+    "etatAvancement": "En attente",
+    "etatGlobal": "Ouvert",
+    "distance": 0,
+    "colis": [
+      {
+        "code": "CL892367WYG",
+        "poids": 54,
+        "typeProduit": "ALIMENTAIRE",
+        "prix": 767676,
+        "etatColis": "En cours",
+        "expediteur": {},
+        "destinataire": {},
+        "dateDepot": "2025-08-17",
+        "dateLivraison": "2025-08-31",
+        "expediteurId": 9,
+        "destinataireId": 10,
+        "cargaisonNumero": "CRG-16-202415"
+      }
+    ],
+    "description": "vjvnncbvbn vjvbvnvv",
+    "lieuDepart": "14.69342, -17.44794",
+    "lieuArrivee": "48.85350, 2.34839",
+    "coordDepart": {
+      "lat": 0,
+      "lng": 0
+    },
+    "coordArrivee": {
+      "lat": 0,
+      "lng": 0
+    },
+    "dateCreation": "2025-08-17T15:55:39.249Z",
+    "dateDepart": "2025-08-17T17:55",
+    "dateArrivee": "",
+    "id": 1
+  },
+  {
+    "numero": "CRG2328",
+    "code": "CGS492209B5X",
+    "poidsMax": 322,
+    "typeCargaison": "ROUTIERE",
+    "etatAvancement": "En attente",
+    "etatGlobal": "Ouvert",
+    "distance": 4309,
+    "colis": [
+      {
+        "code": "CL365550D2T",
+        "poids": 230,
+        "typeProduit": "MATERIEL",
+        "prix": 32393,
+        "etatColis": "En cours",
+        "expediteur": {},
+        "destinataire": {},
+        "dateDepot": "2025-08-17",
+        "dateLivraison": "2025-08-28",
+        "expediteurId": 13,
+        "destinataireId": 14,
+        "cargaisonNumero": "CRG2328"
+      }
+    ],
+    "description": "dsjkdjk",
+    "lieuDepart": "12.75294, -17.19228",
+    "lieuArrivee": "47.15984, 4.07255",
+    "coordDepart": {
+      "lat": 12.75293677121206,
+      "lng": -17.192278117307165
+    },
+    "coordArrivee": {
+      "lat": 47.15984001304432,
+      "lng": 4.072549573117233
+    },
+    "dateCreation": "2025-08-17T16:01:32.209Z",
+    "dateDepart": "2025-08-22T16:01",
+    "dateArrivee": "",
+    "id": 3
+  },
+  {
+    "numero": "CRG-12345",
+    "code": "CGS436792PTK",
+    "poidsMax": 134000,
+    "typeCargaison": "AERIENNE",
+    "etatAvancement": "En attente",
+    "etatGlobal": "Ouvert",
+    "distance": 5948,
+    "colis": [
+      {
+        "code": "CL532974GYM",
+        "poids": 120,
+        "typeProduit": "CHIMIQUE",
+        "prix": 123344,
+        "etatColis": "En cours",
+        "expediteur": {},
+        "destinataire": {},
+        "dateDepot": "2025-08-17",
+        "dateLivraison": "2025-08-16",
+        "expediteurId": 15,
+        "destinataireId": 16,
+        "cargaisonNumero": "CRG-12345"
+      }
+    ],
+    "description": "nffbvfbbf",
+    "lieuDepart": "-3.06784, 23.88324",
+    "lieuArrivee": "47.66539, 4.53855",
+    "coordDepart": {
+      "lat": -3.0678384798273983,
+      "lng": 23.88323523000495
+    },
+    "coordArrivee": {
+      "lat": 47.66538735632654,
+      "lng": 4.538547282844197
+    },
+    "dateCreation": "2025-08-17T16:33:56.792Z",
+    "dateDepart": "2025-08-23T16:33",
+    "dateArrivee": "",
+    "id": 6
+  }
+],
+"clients": [
+   {
+    "nom": "jjhjjkj",
+    "prenom": "jhjhhj",
+    "email": "jnbbnnb@gmail.com",
+    "telephone": "76766565",
+    "adresse": "hhhgghghg",
+    "typeClient": "Expéditeur",
+    "id": 9
+  },
+  {
+    "nom": "hhgjhfgh",
+    "prenom": "hvhvghvgh",
+    "email": "jhhhghhg@gmail.com",
+    "telephone": "767756",
+    "adresse": "jhhvhv",
+    "typeClient": "Destinataire",
+    "id": 10
+  },
+  {
+    "nom": "ka",
+    "prenom": "malick",
+    "email": "malikesta@gmail.com",
+    "telephone": "78535454",
+    "adresse": "braza",
+    "typeClient": "Expéditeur",
+    "id": 13
+  },
+  {
+    "nom": "ndoye",
+    "prenom": "lebou",
+    "email": "lleb@gmail.com",
+    "telephone": "754321234",
+    "adresse": "dakar",
+    "typeClient": "Destinataire",
+    "id": 14
+  },
+  {
+    "nom": "ddfk",
+    "prenom": "fnfb",
+    "email": "fdfhfh@gmail.com",
+    "telephone": "764532344",
+    "adresse": "tchad",
+    "typeClient": "Expéditeur",
+    "id": 15
+  },
+  {
+    "nom": "ndiayee",
+    "prenom": "mamadou",
+    "email": "fjdfhfd@gmail.com",
+    "telephone": "784563456",
+    "adresse": "Thchad",
+    "typeClient": "Destinataire",
+    "id": 16
+  }
+],
+"colis" : [
+   {
+    "code": "CL892367WYG",
+    "poids": 54,
+    "typeProduit": "ALIMENTAIRE",
+    "prix": 767676,
+    "dateDepot": "2025-08-17",
+    "dateLivraison": "2025-08-31",
+    "expediteurId": 9,
+    "destinataireId": 10,
+    "cargaisonNumero": "CRG-16-202415",
+    "etatColis": "En cours",
+    "id": 5
+  },
+  {
+    "code": "CL365550D2T",
+    "poids": 230,
+    "typeProduit": "MATERIEL",
+    "prix": 32393,
+    "dateDepot": "2025-08-17",
+    "dateLivraison": "2025-08-28",
+    "expediteurId": 13,
+    "destinataireId": 14,
+    "cargaisonNumero": "CRG2328",
+    "etatColis": "En cours",
+    "id": 7
+  },
+  {
+    "code": "CL532974GYM",
+    "poids": 120,
+    "typeProduit": "CHIMIQUE",
+    "prix": 123344,
+    "dateDepot": "2025-08-17",
+    "dateLivraison": "2025-08-16",
+    "expediteurId": 15,
+    "destinataireId": 16,
+    "cargaisonNumero": "CRG-12345",
+    "etatColis": "En cours",
+    "id": 8
+  }
+]
 
     
 }
